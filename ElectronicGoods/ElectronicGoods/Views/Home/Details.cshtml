@@ -1,0 +1,35 @@
+﻿@model Product
+<div class="row">
+    <div class="col-md-3">
+        <partial name="_menu" />
+    </div>
+    <div class="col-md-9">
+        <div class="card mb-3">
+            <div class="card-body">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="~/img/@Model.ImageUrl" alt="@Model.Description" class="card-img" />
+                    </div>
+                    <div class="col-md-8">
+
+                        <h5 class="card-title">
+                            <a asp-controller="Home" asp-action="Details" asp-route-id="@Model.ProductId">@Model.ProductName</a> @*home/details/2*@
+                        </h5>
+                        <p class="card-text">
+                            @Html.Raw(Model.Description)
+                        </p>
+                        <p class="card-text">
+                            @Model.Price $
+                        </p>
+                        <p class="card-text">
+                            Stock: @Model.Quantity
+                        </p>
+                        <p class=" card-text">
+                            <small class="text-muted">3 days ago.</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ElectronicGoods.Models;
+using ElectronicGoods.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ElectronicGoods.Controllers
@@ -11,7 +11,7 @@ namespace ElectronicGoods.Controllers
     {
         public IActionResult Index()
         {
-            return View(Repository.Products);
+            return View(ProductRepository.Products);
         }
         public IActionResult Contact()
         {
@@ -19,7 +19,7 @@ namespace ElectronicGoods.Controllers
         }
         public IActionResult Details(int id)
         {
-            return View();
+            return View(ProductRepository.GetById(id));
         }
     }
 }
