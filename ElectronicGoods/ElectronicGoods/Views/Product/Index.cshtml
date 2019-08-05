@@ -1,1 +1,8 @@
-﻿<p>Product/Index</p>
+﻿<div class="row">
+    <div class="col-md-3">
+        @await Html.PartialAsync("_menu")
+    </div>
+    <div class="col-md-9">
+        @await Html.PartialAsync("_movies")
+    </div>
+</div>

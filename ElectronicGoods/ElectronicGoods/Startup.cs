@@ -21,6 +21,12 @@ namespace ElectronicGoods
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseStaticFiles(); // Makes static files visible
+            //app.UseStaticFiles(new StaticFileOptions
+            //{
+            //    FileProvider = new PhysicalFileProvider(Path.Combine( Directory.GetCurrentDirectory("write directory here") ))
+            //});
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

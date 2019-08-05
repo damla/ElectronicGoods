@@ -1,11 +1,22 @@
 ﻿<!DOCTYPE html>
-
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>_Layout</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+    <title>Electronic Goods</title>
 </head>
 <body>
-    @RenderBody()
+    <header>
+        @await Html.PartialAsync("_navbar")
+    </header>
+    <main>
+        <div class="container mt-4">
+            @RenderBody()
+        </div>
+    </main>
+    <footer class="footer">
+        @await Html.PartialAsync("_footer")
+    </footer>
 </body>
 </html>
