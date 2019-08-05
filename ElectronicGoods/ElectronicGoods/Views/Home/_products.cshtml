@@ -9,9 +9,17 @@
             </div>
             <div class="col-md-9">
                 <div class="card-body">
-                    <h5 class="card-title">@product.ProductName</h5>
+                    <h5 class="card-title">
+                    <a asp-controller="Home" asp-action="Details" asp-route-id="@product.ProductId">@product.ProductName</a> @*home/detail/2*@
+                    </h5>
                     <p class="card-text">
                         @product.Description
+                    </p>
+                    <p class="card-text">
+                        @product.Price $
+                    </p>
+                    <p class="card-text">
+                       Stock: @product.Quantity
                     </p>
                     <p class=" card-text">
                         <small class="text-muted">3 days ago.</small>

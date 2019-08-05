@@ -25,21 +25,21 @@ namespace ElectronicGoods.Models
                 },
                 new Product()
                 {
-                    ProductId = 2,
-                    ProductName = "Samsung S10",
-                    Description= "Samsung's newest phone!",
-                    Price = 735.00,
-                    Quantity = 155,
-                    ImageUrl = "s10.jpg"
-                },
-                new Product()
-                {
                     ProductId = 3,
                     ProductName = "Huawei P20 Lite",
                     Description= "It has perfect camera!",
                     Price = 620.00,
                     Quantity = 143,
                     ImageUrl = "p20.jpg"
+                },
+                new Product()
+                {
+                    ProductId = 2,
+                    ProductName = "Samsung S10",
+                    Description= "Samsung's newest phone!",
+                    Price = 735.00,
+                    Quantity = 155,
+                    ImageUrl = "s10.jpg"
                 },
                 new Product()
                 {

@@ -17,5 +17,9 @@ namespace ElectronicGoods.Controllers
         {
             return View();
         }
+        public IActionResult Details(int id)
+        {
+            return View();
+        }
     }
 }
