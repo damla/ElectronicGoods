@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace ElectronicGoods.Models
 {
-    public class Repository
+    public static class Repository
     {
-        private static readonly List<Product> _products = null; // it will be filled
+        private static List<Product> _products = null; // it will be filled
         static Repository()
         {
             // constructor
-            _products = new List<Product>
+            _products = new List<Product>()
             {
                 // sample data
                 new Product()
@@ -21,7 +21,7 @@ namespace ElectronicGoods.Models
                     Description= "Brand new IPhone!",
                     Price = 100.00 ,
                     Quantity = 150,
-                    ImageUrl = "1.jpg"
+                    ImageUrl = "iphonex.jpg"
                 },
                 new Product()
                 {
@@ -30,7 +30,7 @@ namespace ElectronicGoods.Models
                     Description= "Samsung's newest phone!",
                     Price = 735.00,
                     Quantity = 155,
-                    ImageUrl = "2.jpg"
+                    ImageUrl = "s10.jpg"
                 },
                 new Product()
                 {
@@ -39,7 +39,7 @@ namespace ElectronicGoods.Models
                     Description= "It has perfect camera!",
                     Price = 620.00,
                     Quantity = 143,
-                    ImageUrl = "3.jpg"
+                    ImageUrl = "p20.jpg"
                 },
                 new Product()
                 {
@@ -48,7 +48,7 @@ namespace ElectronicGoods.Models
                     Description= "Gamer's first choice!",
                     Price = 1199.99,
                     Quantity = 87,
-                    ImageUrl = "4.jpg"
+                    ImageUrl = "alienware.jpg"
                 },
                 new Product()
                 {
@@ -57,16 +57,7 @@ namespace ElectronicGoods.Models
                     Description= "Perfect for gamers.",
                     Price = 1220.00,
                     Quantity = 92,
-                    ImageUrl = "5.jpg"
-                },
-                new Product()
-                {
-                    ProductId = 6,
-                    ProductName = "Macbook Air",
-                    Description= "Simple and elegant.",
-                    Price = 1350.00,
-                    Quantity = 77,
-                    ImageUrl = "1.jpg"
+                    ImageUrl = "monster.jpg"
                 }
             };
         }
