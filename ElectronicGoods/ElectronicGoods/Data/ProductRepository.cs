@@ -23,7 +23,8 @@ namespace ElectronicGoods.Data
                     Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p> <p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p> <p>İşlemci Türü: Apple A11 İşlemci </p> <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
                     Price = 1000.00 ,
                     Quantity = 150,
-                    ImageUrl = "iphonex.jpg"
+                    ImageUrl = "iphonex.jpg",
+                    CategoryId = 1
                 },
                 new Product()
                 {
@@ -33,7 +34,8 @@ namespace ElectronicGoods.Data
                     Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p><p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p>  <p>İşlemci Türü: Apple A11 İşlemci </p>  <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
                     Price = 620.00,
                     Quantity = 143,
-                    ImageUrl = "p20.jpg"
+                    ImageUrl = "p20.jpg",
+                    CategoryId = 1
                 },
                 new Product()
                 {
@@ -43,7 +45,8 @@ namespace ElectronicGoods.Data
                     Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p> <p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p> <p>İşlemci Türü: Apple A11 İşlemci </p> <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
                     Price = 735.00,
                     Quantity = 155,
-                    ImageUrl = "s10.jpg"
+                    ImageUrl = "s10.jpg",
+                    CategoryId = 1
                 },
                 new Product()
                 {
@@ -53,7 +56,8 @@ namespace ElectronicGoods.Data
                     Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p> <p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p> <p>İşlemci Türü: Apple A11 İşlemci </p> <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
                     Price = 1199.99,
                     Quantity = 87,
-                    ImageUrl = "alienware.jpg"
+                    ImageUrl = "alienware.jpg",
+                    CategoryId = 2
                 },
                 new Product()
                 {
@@ -63,7 +67,30 @@ namespace ElectronicGoods.Data
                     Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p> <p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p> <p>İşlemci Türü: Apple A11 İşlemci </p> <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
                     Price = 1220.00,
                     Quantity = 92,
-                    ImageUrl = "monster.jpg"
+                    ImageUrl = "monster.jpg",
+                    CategoryId = 2
+                },
+                new Product()
+                {
+                    ProductId = 17,
+                    ProductName = "GTA V",
+                    Summary= "Best multiplayer game in the world!",
+                    Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p> <p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p> <p>İşlemci Türü: Apple A11 İşlemci </p> <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
+                    Price = 150.00,
+                    Quantity = 155,
+                    ImageUrl = "gta5.jpg",
+                    CategoryId = 7
+                },
+                new Product()
+                {
+                    ProductId = 9,
+                    ProductName = "Horizon",
+                    Summary= "Best racing game!",
+                    Description = "<p>Menşe Ülke: Çin</p> <p>Dokunmatik Ekran: Var </p> <p>Ekran Boyu: 5.8 inch</p> <p>Ekran Çözünürlüğü: (px) 2436x1125</p> <p>Ekran Renk Sayısı: 16 Milyon</p> <p>İşlemci Türü: Apple A11 İşlemci </p> <p>Hızı: 2.10 GHz </p> <p>İşlemci Sayısı: 6 Çekirdek</p> <p>Otomatik Odaklama, Otomatik Pozlama, Görüntü Sabitleyici, Görüntülü Görüşme, Yüz Algılama, Zamanlayıcı Modu, Arka Arkaya Çekim Modu, Konum Bilgisi</p>",
+                    Price = 110.00,
+                    Quantity = 148,
+                    ImageUrl = "horizon.jpg",
+                    CategoryId = 3
                 }
             };
         }
