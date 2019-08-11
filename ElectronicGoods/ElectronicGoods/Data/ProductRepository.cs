@@ -109,5 +109,9 @@ namespace ElectronicGoods.Data
         {
             return _products.FirstOrDefault(p => p.ProductId == id); // returns the product matched with the id
         }
+        public static List<Product> SearchProduct(string q)
+        {
+            return _products.Where(p => p.ProductName.Contains(q)).ToList<Product>();
+        }
     }
 }

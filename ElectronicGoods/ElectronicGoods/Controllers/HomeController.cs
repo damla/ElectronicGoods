@@ -40,5 +40,14 @@ namespace ElectronicGoods.Controllers
             //};
             return View(ProductRepository.GetById(id));
         }
+
+        [HttpGet]
+        public IActionResult Search(string q)
+        {
+            if (string.IsNullOrWhiteSpace(q))
+                return Redirect("~/");
+            else
+                return View("Index", ProductRepository.SearchProduct(q));
+        }
     }
 }
